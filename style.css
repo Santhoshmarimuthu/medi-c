@@ -1,0 +1,332 @@
+*{
+    margin: 0%;
+    text-decoration:none;
+}
+body{
+    width: 100%;
+}
+.slides{
+    position: absolute;
+    display: flex;
+    margin-left: 21%;
+    top: 20%;
+    overflow: hidden;
+
+}
+.carousel-caption{
+    text-shadow: 0px 0px 3px black;
+}
+.carousel-caption h3{
+    font-weight: bolder;
+}
+.header{
+    display: flex;width: 100%;padding: 10px;
+    align-items: center;justify-content:space-around;
+    position:fixed;height:80px;color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;box-shadow: 5px 5px 12px grey;
+    border-bottom: 3px solid cornflowerblue;
+    z-index: 1000;
+}
+.head span{
+    color: cornflowerblue;
+}
+.head{
+    margin-right: 40%;
+    font-size: 50px;
+}
+ul,li{
+    list-style:none ;
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.navbar a{
+    color: black;padding: 7px;
+    text-decoration: none;border-color: cornflowerblue;
+    border-radius: 10px;
+}
+.navbar a:hover{
+    border: 1px solid cornflowerblue;
+    background-color: cornflowerblue;
+    color: white;
+    transition: 0.5s ease-in-out;
+    box-shadow: 5px 5px 12px grey;
+}
+
+section{
+    height: 100vh;
+}
+.sidebar{
+    display: flex;
+    position: absolute;
+    height: 600px;box-shadow: 5px 5px 12px grey;
+    width: 200px;justify-content: center;
+    text-align: center;background-color: rgb(135, 166, 224);border-radius: 10px;
+}
+.sidebar .sidebarbtn{
+    margin-top: 60%;letter-spacing: 2px;width:90%;padding: 10px;border-bottom: 2px solid white;
+    color:white;font-size:  1em;font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 1px black;  height:7%;
+}
+.loginbutton{
+    margin-top: 140%;letter-spacing: 2px;font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 8px;font-size: 1.4em;font-weight: bolder;
+    position: absolute;border: none;box-shadow: 5px 5px 12px grey;
+    border-radius: 10px;color: white;width: 80%;
+    background-color: cornflowerblue;
+    top:40%;text-shadow: 0px 0px 2px black;
+}
+.loginbutton:hover{
+    background-color: rgb(52, 104, 202);
+}
+.container{
+    display: flex;position: relative;
+    justify-content: center;
+    align-items: center;text-align: center;
+    height: 100vh;width: 100%;
+}
+.login{
+    display: flex;margin-top: 10%;
+    box-shadow: 5px 5px 12px cornflowerblue;
+    height: 70%;width: 50%;
+    background-color: white;
+}
+.login input{
+    font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: light;border: none;
+    border-bottom: 2px solid cornflowerblue;
+    margin-top: 10%;
+    width: 70%;
+}
+.x{
+    border: none;
+}
+.fa-circle-xmark{
+    position: absolute;
+    border: none;top: 22%;
+    color: cornflowerblue;
+    font-size: 40px;margin-left: 39%;
+}
+.fa-circle-xmark:hover{
+    color: rgb(64, 109, 195);
+}
+.login .submit{
+    display: block;border: none;
+    background-color: cornflowerblue;color: white;
+    margin:auto;margin-top: 10%;
+    font-size: 1.2em;padding: 10px;
+}
+.login .submit:hover{
+background-color: rgb(31, 91, 202);
+
+}
+.predict .bgimg1{
+    position:absolute;   
+}
+.predict .container{
+    position:absolute;
+}
+.predict .box1{
+    position: absolute;
+    display:flex;margin-left: 10%;
+    width: 300px;height: 450px;margin-top:15%;
+    background-color: white;border-radius: 10px;
+    box-shadow: 5px 5px 12px black;
+}
+.predict .box2{
+    position: absolute;
+    display:flex;margin-left: 40%;
+    width: 300px;height: 450px;margin-top:15%;
+    background-color: white;border-radius: 10px;
+    box-shadow: 5px 5px 12px black;
+}
+.predict .box3{
+    position: absolute;
+    display:flex;margin-left: 70%;
+    width: 300px;height: 450px;margin-top:15%;
+    background-color: white;border-radius: 10px;
+    box-shadow: 5px 5px 12px black;
+}
+.cimg{
+    margin-top: 10px;margin-left: 7px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px grey;
+}
+.predict h3{
+    position: absolute;font-size: 25px;font-weight: 600;
+    padding: 10px;font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;top: 50%;width:100%;
+    background-color:cornflowerblue;
+    box-shadow:10px 10px 15px rgb(0,0,0,0.5);
+}
+.predict h6{
+    position: absolute;
+    margin-left: 15px;font-weight: 400;
+    width: 92%;top: 67%;
+}
+.predict h6 span{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: cornflowerblue;
+}
+.predict .box1 button{
+    position: absolute;margin-left: 55px;
+    top: 96%;color: white;
+    background-color: cornflowerblue;
+    border: 0.5px solid;
+    padding: 5px;text-decoration: none;
+    font-size: 19px;border-radius: 20px;
+    width: 60%;
+    text-align: center;
+}
+.predict .box2 button{
+    position: absolute;margin-left: 55px;
+    top: 96%;color: white;
+    background-color: cornflowerblue;
+    border: 0.5px solid;
+    padding: 5px;text-decoration: none;
+    font-size: 19px;border-radius: 20px;
+    width: 60%;
+    text-align: center;
+}
+.predict .box3 button{
+    position: absolute;margin-left: 55px;
+    top: 96%;color: white;
+    background-color: cornflowerblue;
+    border: 0.5px solid;
+    padding: 5px;text-decoration: none;
+    font-size: 19px;border-radius: 20px;
+    width: 60%;
+    text-align: center;
+}
+.predict button:hover{
+    background-color:rgb(52, 104, 202) ;
+}
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.circle{
+    overflow: hidden;
+   width: 230px;height: 230px;border-radius: 50%;
+   border: 1px solid cornflowerblue;margin-top: 150px;
+   box-shadow: 8px 8px 20px grey;
+}
+.circle1{
+    position: absolute;
+    background-color: cornflowerblue;
+}
+.circle2{
+    position: absolute;
+    background-color: cornflowerblue;
+}
+.circle3{
+    position: absolute;
+    background-color: cornflowerblue;
+}
+.circle4{
+    position: absolute;
+    background-color: cornflowerblue;
+}
+.circle:hover{
+    box-shadow:inset 8px 8px 20px grey;
+}
+.fa-user-doctor{
+   font-size:34vh;margin-right: 100px;padding: 20px;
+   width: 100%;height: 100%;
+   color: cornflowerblue;  transition: 2s ease-in-out;text-shadow: 4px 4px 10px grey;
+   }
+.fa-user-doctor:hover{
+    background-color:cornflowerblue;
+    width: 100%;height: 100%;color: white;
+    transition: 2s;text-shadow: 7px 7px 15px black;
+}
+.fa-users{
+    font-size:30vh;margin-top: 0px;padding-top: 50px;
+    width: 100%;height: 100%;
+    color: cornflowerblue;  transition: 2s;text-shadow: 4px 4px 10px grey;
+    }
+ .fa-users:hover{
+     background-color:cornflowerblue;
+     width: 100%;height: 100%;color: white;
+     transition: 2s;text-shadow: 7px 7px 15px black;
+ }
+ .fa-hand-holding-medical{
+    font-size:27vh;padding-top:20px;padding-left: 17px;
+    width: 100%;height: 100%;
+    color: cornflowerblue;  transition: 2s;text-shadow: 4px 4px 10px grey;
+    }
+ .fa-hand-holding-medical:hover{
+     background-color:cornflowerblue;
+     width: 100%;height: 100%;color: white;
+     transition: 2s;text-shadow: 7px 7px 15px black;
+ }
+ .fa-lock{
+    font-size:27vh;padding-top:20px;padding-left:35px;
+    width: 100%;height: 100%;
+    color: cornflowerblue;  transition: 2s;text-shadow: 4px 4px 10px grey;
+    }
+ .fa-lock:hover{
+     background-color:cornflowerblue;
+     width: 100%;height: 100%;color: white;
+     transition: 2s;text-shadow: 7px 7px 15px black;
+ }
+.container2 .ab1{
+    position:absolute;margin-top: 30%;
+    margin-right:70%; font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;text-align: center; letter-spacing: 3px;
+    border-radius: 30px;
+    padding: 6px;
+ }
+ .container2 .ab1 span{
+    color: cornflowerblue;
+    font-size: 20px;
+ }
+ .container2 .ab2{
+    position:absolute;margin-top: 30%;
+    margin-right:23%; font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;text-align: center; letter-spacing: 3px;
+    border-radius: 30px;
+    padding: 6px;
+ }
+ .container2 .ab2 span{
+    color: cornflowerblue;
+    font-size: 20px;
+ }
+ .container2 .ab3{
+    position:absolute;margin-top: 30%;
+    margin-left: 25%; font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;text-align: center; letter-spacing: 3px;
+    border-radius: 30px;
+    padding: 6px;
+ }
+ .container2 .ab3 span{
+    color: cornflowerblue;
+    font-size: 20px;
+ }
+ .container2 .ab4{
+    position:absolute;margin-top: 30%;
+    margin-left:70%; font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;text-align: center; letter-spacing: 3px;
+    border-radius: 30px;
+    padding: 6px;
+ }
+ .container2 .ab4 span{
+    color: cornflowerblue;
+    font-size: 20px;
+ }
+.btn2{
+    position: relative;text-align: center;width: 150px;
+    margin-left: 45%;margin-top: 12%;
+    font-size: 20px;padding: 10px;color: white;text-shadow: 2px 2px 7px black;
+    border-radius: 20px;background-color: cornflowerblue;
+    box-shadow: 7px 7px 15px grey;
+ }
+ .container2 button{
+  border: none;background-color: white;
+    border-radius: 50%;
+ }
+ 
